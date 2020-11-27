@@ -16,6 +16,7 @@ You write your own books using a basic text editor.  The file is a markdown file
 Klein was developped using Python version 3.8.4 and Django version 3.0.8, to ensure the functionality of Klein, the latest versions are recommended on your device. Older versions may be sufficient, but they have not been tested. 
 
 To set up Klein on your device, simply clone this repository into the location of your choice. To run the server open a terminal at the root of the repository and move into the `serverside` folder and run the following command:
+>> python manage.py migrate 
 >> python manage.py runserver 
 
 This will start the web server at a default port of 8000, if you require the server to be run on a different port run the following command instead:
